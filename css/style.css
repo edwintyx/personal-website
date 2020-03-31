@@ -1,0 +1,250 @@
+img.icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+}
+
+.pic p {
+  margin-bottom: 50px;
+}
+
+/* ####### ID: Header (Main Name) ########### */
+
+#header {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: left;
+  line-height: 50px;
+  width: 100%;
+  font-size: 12px;
+  text-decoration: none;
+  display: flex;
+  position: relative;
+}
+
+#header a {
+  text-decoration: none;
+  color: #333;
+}
+
+.header-left a {
+  margin: 12px auto;
+}
+
+.header-left {
+  width: 10%;
+  padding-left: 10px;
+  display: inline-flex;
+}
+
+.header-right {
+  width: 90%;
+  padding-right: 10px;
+}
+
+.nav_style {
+  float: right;
+  display: flex;
+}
+
+.nav_list {
+  padding-right: 50px;
+}
+
+.my-pic {
+  width: 50%;
+  margin: 25px auto;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+}
+
+/* ##### About Me ######## */
+
+#my-name {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+#code, #console {
+  height: auto;
+}
+
+#about {
+  text-align: center;
+  height: auto;
+  background-color: #3f72af;
+}
+
+.inner {
+  width: 50%;
+  margin: auto;
+}
+
+#about p {
+  text-align: center;
+  padding-top: 30px;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.3em;
+  font-weight: 700;
+  color: #fafafa;
+  font-size: 11px;
+  text-transform: uppercase;
+  padding-bottom: 30px;
+  margin-bottom: 0;
+}
+
+#console {
+  padding: 40px;
+  height: auto;
+  margin: 0 auto;
+  background: #383737;
+}
+
+#code {
+  border-radius: 5px;
+  width: auto;
+  margin: 0 auto 200px auto;
+  background: #bcbbbf;
+  height: 500px;
+  font-family: 'Monaco', 'Courier New';
+  text-align: left;
+  font-size: 13px;
+  color: #fafafa;
+}
+
+#code a {
+  color: #3a92c8;
+}
+
+#command-prompt {
+  display: inline-block;
+  padding-left: 10px;
+  color: black;
+}
+
+.answer {
+  color: #bcbbbf;
+}
+
+/* ######## Resume Section ########### */
+#resume .tagline {
+  text-align: center;
+  padding-top: 30px;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.3em;
+  font-weight: 700;
+  color: #3f72af;
+  font-size: 11px;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+#resume {
+  text-align: center;
+  background-color: #ebebeb;
+  line-height: 2
+}
+
+.section-tagline {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.3em;
+  font-weight: 700;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #CEC8C8;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.inner .icon {
+  float: left;
+  padding: 10px;
+}
+
+.inner p {
+  letter-spacing: 0.1em;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  font-size: 11px;
+  color: #black;
+  text-align: left;
+}
+
+.inner b {
+  display: inline-block;
+  padding-left: 10px;
+  padding-top: 10px;
+
+}
+
+.inner i {
+  margin-left: 30px;
+  position: absolute;
+  right: 380px;
+}
+
+/* ############# Work ######### */
+#work .tagline {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.3em;
+  font-weight: 700;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+/* ###### Thing's I've built ############# */
+
+.dota-analyst-pic {
+  width: 60%;
+}
+
+.skill {
+  font-family: 'Open Sans', sans-serif;
+  border: 1px solid #50a9d1;
+  margin-right: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+  width: auto;
+  display: inline-block;
+  font-size: 11px;
+  line-height: 1.33333em;
+  padding: 7px 18px;
+  margin-top: 0.8em;
+  border-radius: 8px;
+}
+
+.inner-portfolio {
+  letter-spacing: 0.1em;
+  font-family: 'Open Sans', sans-serif;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  font-size: 11px;
+  color: #black;
+  text-align: center;
+}
+
+.piwars-mac {
+  width: 60%;
+  height: 500px;
+}
+
+.portfolio-piwars {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.employme-mac {
+  width: 60%;
+  height: 500px;
+}

@@ -194,7 +194,6 @@ body {
 #work .tagline {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
-  letter-spacing: 0.3em;
   font-weight: 700;
   padding-top: 30px;
   padding-bottom: 20px;
@@ -211,7 +210,7 @@ body {
 
 .skill {
   font-family: 'Open Sans', sans-serif;
-  border: 1px solid #50a9d1;
+  border: 1px solid #4d5153;
   margin-right: 10px;
   text-transform: uppercase;
   font-weight: 500;
@@ -247,4 +246,18 @@ body {
 .employme-mac {
   width: 60%;
   height: 500px;
+}
+
+.description {
+  margin-left: 300px;
+  margin-right: 300px;
+  text-align: justify;
+  padding-right: 50px;
+  padding-left: 50px;
+  line-height: 2;
+}
+
+#work b {
+  display: block;
+  text-align: center;
 }
